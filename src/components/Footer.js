@@ -27,7 +27,8 @@ const Footer = () => {
 
             <div className='right'>
                 <h4>About Us</h4>
-                <p>Hello everyone. This is krishnendra sharma making a random project for his cv using React js. Stay tuned for the updates. See you Soon !</p>
+                <p>Hello everyone. Am  Krishnendra Sharma. Am a software engineer. I works in Incedo Technology solutions limited as a Software Engineer Trainee. 
+                This is my portfoli website to domnstrate my porjects, work expriences and skills. Hope you liked it !  Stay tuned for the updates. See you Soon !</p>
                 <div className='social'>
                     <a href='https://www.linkedin.com/in/krishnendra-sharma-022a85175/' target="__blank"><FaLinkedin size={30} style={{color:"#fff",marginRight:"1rem"}} /></a>
                     <a href='https://www.facebook.com/krishnendra.sharma.3' target="__blank"><FaFacebook size={30} style={{color:"#fff",marginRight:"1rem"}}  /></a>
