@@ -1,0 +1,54 @@
+.hero-img{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: relative;
+}
+.hero-img::before{
+    content: "";
+    background-size: cover;
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--V0ekZaVJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/h68x0up43hmknl5tjcww.jpg");
+    opacity: 0.5;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img h1{
+    font-size: 2.4rem;
+}
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+
+@media screen and  ( max-width: 640px ) {
+    .hero-img h1{
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
+    .hero-img p{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        
+    }
+}

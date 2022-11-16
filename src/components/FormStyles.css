@@ -1,0 +1,73 @@
+.hero-img{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: relative;
+}
+.hero-img::before{
+    content: "";
+    background-size: cover;
+    background-image: url("../assets/contact.jpg");
+    opacity: 0.5;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+.form-heading {
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding-top: 6rem;
+
+  }
+  .form .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 500px;
+  }
+
+  .form-p {
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    flex-wrap:wrap;
+    padding-top: 3rem;
+
+  }
+  .form .right{
+    max-width: 700px;
+  }
+
+label{
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    
+    margin: auto;
+    max-width: 600px;
+}
+
+form input , form textarea{
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2 rem;
+    background-color: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.1);
+    color: #f4f4f4;
+}
+
