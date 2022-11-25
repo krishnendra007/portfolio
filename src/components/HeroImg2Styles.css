@@ -41,14 +41,14 @@
 
 @media screen and  ( max-width: 640px ) {
     .hero-img h1{
-        font-size: 2rem;
-        margin-top: 4rem;
+        font-size: 1.8rem;
+        margin-top: 10rem;
     }
 
     .hero-img p{
         text-align: center;
         margin-top: 2rem;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         
     }
 }
