@@ -29,12 +29,7 @@
     padding-top: 6rem;
 
   }
-  .form .left{
-    text-align: center;
-    margin: auto;
-    padding: 1rem;
-    max-width: 500px;
-  }
+  
 
   .form-p {
     display:flex;
@@ -42,11 +37,11 @@
     text-align: center;
     flex-wrap:wrap;
     padding-top: 3rem;
+      padding-left: 2rem;
+    padding-right: 2rem;
 
   }
-  .form .right{
-    max-width: 700px;
-  }
+ 
 
 label{
     color: #fff;
