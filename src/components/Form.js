@@ -1,14 +1,16 @@
 import "./FormStyles.css";
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 
 const Form = () => {
-  
-  const onsubmit=(e)=>{
-    alert("Your form is submitted")
-    e.preventDefault();
-    
 
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `/`; 
+    navigate(path);
   }
+ 
+
   return (
     <div >
     <h1 className="form-heading">Contact Me</h1>
@@ -26,7 +28,7 @@ const Form = () => {
             <input type="text"></input>
             <label>Message</label>
             <textarea rows='6' placeholder="Type your message here"></textarea>
-          <button className="btn"  onSubmit={onSubmit}>Submit</button>
+          <button className="btn" onClick={routeChange}>Submit</button>
         </form>
     </div>
     </div>
