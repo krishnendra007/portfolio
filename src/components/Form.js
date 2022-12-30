@@ -6,7 +6,7 @@ const Form = () => {
 
   let navigate = useNavigate(); 
   const routeChange = () =>{ 
-    let path = `/Contact/`; 
+    let path = `/`; 
     navigate(path);
   }
  
