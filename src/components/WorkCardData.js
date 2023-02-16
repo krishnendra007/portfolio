@@ -59,7 +59,7 @@ const ProjectCardData=[
         text: "Built portfolio website using React.Js. Various sections like about, home, contact etc. to navigate through. Used the component struture of React to reasubility.",
         techStack:"Tech Stack : React.Js, NewsAPI",
         view:"https://github.com/krishnendra007/portfolio",
-        source:"https://github.com/krishnendra007/portfolio"
+        source:"https://mydevelopmentportfolio.netlify.app/"
     },
     {
         imgsrc: pro8,
