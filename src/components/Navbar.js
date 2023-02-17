@@ -1,4 +1,5 @@
 import "./NavbarStyles.css"
+import resumePDF from '../components/Krishnendra_Sharma_MANIT_2022.pdf';
 
 import React, { useState } from 'react'
 import {Link } from "react-router-dom"
@@ -28,6 +29,9 @@ window.addEventListener("scroll",changeColor);
         </Link>
 
         <ul className={click?"nav-menu active":"nav-menu"}>
+            <li>
+                <a href={resumePDF} download>Resume</a>
+            </li>
             <li>
                 <Link to="/">Home</Link>
             </li>
