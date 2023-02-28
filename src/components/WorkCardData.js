@@ -33,7 +33,7 @@ const ProjectCardData=[
         imgsrc: prog,
         title:"Inventory Management System",
         text: "Designed inventory management system with classes and structures with file management system having various functionalities.",
-        techStack:"Tech Stack :OOPs, C++, DSA , File handling",
+        techStack:"Tech Stack :OOPs, Java, DSA , File handling",
         view:"https://github.com/krishnendra007/Inventory_project",
         source:"https://github.com/krishnendra007/Inventory_project"
     },
