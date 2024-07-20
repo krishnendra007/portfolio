@@ -15,15 +15,16 @@ const PricingCard = () => {
           <p className="btc">Software Engineer </p>
           <p>July 2022-Present</p>
 
-          <p>  <h3>Tech stacks</h3> Advanced core operating system, load balancing, Linux, Virtual Machine, Java, HTML, CSS, JavaScript.
+          <p>  <h3>Tech stacks</h3> Java, Spring Boot, Hibernate, JPA, Rest API, MYSql, MongoDB, Maven, load balancing, JavaScript.
           </p>
-          <p>Collaborated closely with the engineering, reliability, and TAC teams at A10 Networks to deliver sophisticated networking and cybersecurity
-            solutions to a diverse clientele of business-to-consumer customers.
+          <p>Engaged with the tools development team for developing applications that manage, store, filter and analyze the network log files that assists 
+Network engineers to analyze and resolve tickets
           </p>
           <p>
-            Engaged with the TAC-tools team in the development of data filtering and analysis applications.
+            Designed and implemented Rest Endpoints of Java applications, tested with JUnit. Designed Technical documents. 
+           
           </p>
-          <p>Assisted clients in the deployment, maintenance, and optimization of load balancing and traffic management solutions within their networks.</p>
+          <p> Engaged with the TAC-tools team in the development of data filtering and analysis applications.</p>
         </div>
 
         <div className="card">
