@@ -16,6 +16,7 @@ const AboutContent = () => {
           <br/>
           <br/>
           Wants to know more ??
+           <br/>
            Explore my portfolio and let's connect to create something amazing!
            <br/>
         </p>
