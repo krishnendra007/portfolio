@@ -4,7 +4,17 @@ import pro3 from "../assets/pro3.jpg"
 import prog from "../assets/prog.jpg"
 import pro7 from "../assets/pro7.jpg"
 import pro8 from "../assets/pro8.jpg"
+import prodm from "../assets/prodm.jpg"
 const ProjectCardData=[
+
+    {
+        imgsrc: prodm,
+        title:"Spring Boot Product Management Application",
+        text: "Developed a comprehensive product management application using Spring Boot, integrating functionalities such as product creation, update, deletion, and retrieval.",
+        techStack:"Tech Stack : Core Java, OOPs, Spring Boot, JPA, Hibernate, MVC, Maven, Postman, MySQL, HTML, JavaScript",
+        view:"https://github.com/krishnendra007/springboot-productmanagement",
+        source:"https://github.com/krishnendra007/springboot-productmanagement"
+    },
     {
         imgsrc: pro1,
         title:"NewsApp",
@@ -12,6 +22,14 @@ const ProjectCardData=[
         techStack:"Tech Stack : React.Js, NewsAPI",
         view:"https://github.com/krishnendra007/newsApp",
         source:"https://github.com/krishnendra007/newsApp"
+    },
+      {
+        imgsrc: prog,
+        title:"Job Posting Management Application",
+        text: "Developed a job posting application using Spring Boot and implemented RESTful APIs for efficient client-server interaction and utilized Hibernate for database operations with MongoDB. ",
+        techStack:"Tech Stack : Core Java, OOPs, Spring Boot, JPA, Hibernate, MVC, Maven, Postman, MongoDB",
+        view:"https://github.com/krishnendra007/jobpost",
+        source:"https://github.com/krishnendra007/jobpost"
     },
     {
         imgsrc: pro2,
