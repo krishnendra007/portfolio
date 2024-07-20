@@ -7,7 +7,7 @@ import IntroImg from "../assets/walpaper1.jpg"
 
 
 const names = [
-  "Software Engineer", "Data Engineer", "Node Developer", "Java Engineer","Network Engineer", "TAC Engineer"
+  "Software Engineer", "Backend Developer","Java Engineer","Node Developer","Network Engineer","MySQL Developer"
 ]
 
 const HeroImg = () => {
