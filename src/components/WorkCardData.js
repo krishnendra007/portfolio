@@ -4,7 +4,7 @@ import pro3 from "../assets/pro3.jpg"
 import prog from "../assets/prog.jpg"
 import pro7 from "../assets/pro7.jpg"
 import pro8 from "../assets/pro8.jpg"
-import prodm from "../assets/prodm.jpg"
+import prodm from "../assets/prodm.png"
 const ProjectCardData=[
 
     {
