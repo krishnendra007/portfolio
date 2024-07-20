@@ -27,7 +27,7 @@ const Footer = () => {
 
             <div className='right'>
                 <h4>About Us</h4>
-                <p>Hello everyone. I am  Krishnendra Sharma. I am a software engineer. I work with Incedo Technology solutions ltd. as a Software Engineer Trainee. 
+                <p>Hello everyone. I am  Krishnendra Sharma. I am a software engineer. I work with Incedo Technology solutions ltd. as a Software Engineer. 
                 This is my portfolio website to domnstrate my porjects, work exprience and skills. Hope you like it !  Stay tuned for more updates. See you Soon !</p>
                 <div className='social'>
                     <a href='https://www.linkedin.com/in/krishnendra-sharma-022a85175/' target="__blank"><FaLinkedin size={30} style={{color:"#fff",marginRight:"1rem"}} /></a>
